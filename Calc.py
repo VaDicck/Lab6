@@ -19,3 +19,6 @@ def power(a, b):
     
 def printHelp():
     print("help")
+    
+def print_version():
+    print("Calc v1.0")
