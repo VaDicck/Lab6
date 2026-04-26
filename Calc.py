@@ -18,3 +18,6 @@ def div(a, b):
     
 def power(a, b):
     return a ** b
+    
+def print_menu():
+    print("1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. Power")
