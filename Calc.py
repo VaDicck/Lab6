@@ -18,3 +18,6 @@ def div(a, b):
         print("Division by zero is not allowed, returning None")
         return None
     return a / b
+    
+def factorial(n):
+    return 1 if n <= 1 else n * factorial(n-1)
