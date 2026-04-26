@@ -21,3 +21,6 @@ def power(a, b):
     
 def print_menu():
     print("1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. Power")
+    
+if __name__ == "__main__":
+    print_menu()
