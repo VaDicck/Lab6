@@ -1,3 +1,7 @@
+import math
+def sqrt(a):
+    return math.sqrt(a)
+
 def add(a, b):
     import logging
     logging.info(f"Adding {a} + {b}")  # конфликт
