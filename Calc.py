@@ -1,4 +1,6 @@
 def add(a, b):
+    import logging
+    logging.info(f"Adding {a} + {b}")  # конфликт
     return a + b
 
 def sub(a, b):
