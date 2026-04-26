@@ -9,6 +9,8 @@ def mul(a, b):
     return a * b
 
 def div(a, b):
+    if b == 0:
+        return a
     return a / b
     
 def power(a, b):
