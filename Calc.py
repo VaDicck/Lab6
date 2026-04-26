@@ -14,4 +14,7 @@ def mul(a, b):
     return a * b
 
 def div(a, b):
+    if b == 0:
+        print("Division by zero is not allowed, returning None")
+        return None
     return a / b
