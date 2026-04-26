@@ -1,4 +1,5 @@
 def add(a, b):
+    print(f"Adding {a} + {b}")   # конфликтная строка (версия main)
     return a + b
 
 def sub(a, b):
