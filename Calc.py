@@ -3,7 +3,10 @@ def add(a, b):
     return a + b
 
 def sub(a, b):
-    return a - b
+    print(f"Subtracting {b} from {a}")
+    result = a - b
+    print(f"Result: {result}")
+    return result
 
 def mul(a, b):
     return a * b
