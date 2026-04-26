@@ -3,6 +3,7 @@ def add(a, b):
     return a + b
 
 def sub(a, b):
+    print(f"Subtracting {a} - {b}")   # конфликтная строка (версия main)
     return a - b
 
 def mul(a, b):
