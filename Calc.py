@@ -14,3 +14,6 @@ def div(a, b):
     if b == 0:
         return float('inf')
     return a / b
+
+def precision_control(val, digits):
+    return round(val, digits)
