@@ -1,4 +1,7 @@
+import sys
+
 def add(a, b):
+    sys.stdout.write(f"Adding {a} + {b}\n")
     return a + b
 
 def sub(a, b):
